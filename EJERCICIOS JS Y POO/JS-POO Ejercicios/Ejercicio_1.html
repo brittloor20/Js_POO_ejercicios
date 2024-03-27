@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio_1</title>
+</head>
+<body>
+
+    <script>
+
+        let numeroDeElementos = 5;
+
+        function fibonacci (numbElements) {
+            let serie = [0, 1];
+        }
+
+        for (let i=2; i < numbElements; i++) {
+            let newElement = serie [i - 1] + serie[i - 2];
+            serie.push (newElement);
+        }
+
+        return serie;
+        let resultado = fibonacci (numeroDeElementos)
+        console.log(resultado)
+
+    </script>
+    
+</body>
+</html>
